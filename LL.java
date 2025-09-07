@@ -75,6 +75,8 @@ public class LL {
             lastNode = lastNode.next;
             secondLast = secondLast.next;
         }
+
+        secondLast.next = null;
     }
 
     public static void main(String[] args){
