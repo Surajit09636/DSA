@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "LL",
+      "request": "launch",
+      "mainClass": "LL",
+      "projectName": "DSA_afc984c6"
+    },
+    {
+      "type": "java",
+      "name": "BFS",
+      "request": "launch",
+      "mainClass": "graph.BFS",
+      "projectName": "DSA_9100c4ce"
+    },
+    {
+      "type": "java",
+      "name": "slc",
+      "request": "launch",
+      "mainClass": "slc",
+      "projectName": "DSA_bd751a55"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Surajit/Desktop/DSA",
+      "program": "c:/Users/Surajit/Desktop/DSA/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
