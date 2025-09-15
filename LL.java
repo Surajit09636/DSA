@@ -1,11 +1,18 @@
 public class LL {
     private Node head;
+    private int size;
+
+    LL(){
+        this.size = 0;
+    }
+
     class Node{
         String data;
         Node next;
         Node(String data){
             this.data=data;
             this.next=null;
+            size++;
         }
     }
 
@@ -55,6 +62,7 @@ public class LL {
             return;
         }
 
+        size--;
         head = head.next;
     }
 
@@ -64,6 +72,7 @@ public class LL {
             return;
         }
 
+        size--;
         if(head.next == null){
             head = null;
             return;
@@ -77,6 +86,10 @@ public class LL {
         }
 
         secondLast.next = null;
+    }
+
+    public int getSize(){
+        return size;
     }
 
     public static void main(String[] args){
