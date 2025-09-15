@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SinglyLL",
+      "request": "launch",
+      "mainClass": "java.SinglyLL",
+      "projectName": "DSA_afc984c6"
+    },
+    {
+      "type": "java",
       "name": "LL",
       "request": "launch",
       "mainClass": "LL",
